@@ -37,7 +37,7 @@ module ActiveAdminAddons
     protected
 
     def resource_url
-      admin_resource&.route_instance_path(model, {})
+      admin_resource.try(:route_instance_path, model, {})
     end
 
     def enabled_controller_action?(action)
@@ -45,11 +45,11 @@ module ActiveAdminAddons
     end
 
     def admin_controller_actions
-      (admin_controller&.action_methods&.to_a || []).map(&:to_sym)
+      (admin_controller.try(:action_methods).try(:to_a) || []).map(&:to_sym)
     end
 
     def admin_controller
-      context&.controller
+      context.try(:controller)
     end
 
     def admin_resource
