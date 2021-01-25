@@ -14,7 +14,7 @@ $dt-hour-border-color: #ddd;
 
 li.input.date_time_picker .date-time-picker-input {
   z-index: 2 !important;
-  background: $dt-selected-color asset-url('active_material/icons/event.svg') 10px no-repeat;
+  background: $dt-selected-color image-url('active_material/icons/event.svg') 10px no-repeat;
   padding-left: 40px;
 }
 
@@ -145,15 +145,15 @@ div.xdsoft_datetimepicker {
     height: 24px;
 
     &.xdsoft_prev {
-      background: asset-url('material/icons/keyboard_arrow_left.svg') no-repeat;
+      background: image-url('material/icons/keyboard_arrow_left.svg') no-repeat;
     }
 
     &.xdsoft_today_button {
-      background: asset-url('material/icons/today.svg') no-repeat;
+      background: image-url('material/icons/today.svg') no-repeat;
     }
 
     &.xdsoft_next {
-      background: asset-url('material/icons/keyboard_arrow_right.svg') no-repeat;
+      background: image-url('material/icons/keyboard_arrow_right.svg') no-repeat;
     }
   }
 
@@ -161,13 +161,13 @@ div.xdsoft_datetimepicker {
     &.xdsoft_prev {
       width: 24px;
       height: 24px;
-      background: asset-url('material/icons/keyboard_arrow_up.svg') no-repeat;
+      background: image-url('material/icons/keyboard_arrow_up.svg') no-repeat;
     }
 
     &.xdsoft_next {
       width: 24px;
       height: 24px;
-      background: asset-url('material/icons/keyboard_arrow_down.svg') no-repeat;
+      background: image-url('material/icons/keyboard_arrow_down.svg') no-repeat;
     }
   }
 }
