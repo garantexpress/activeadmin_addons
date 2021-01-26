@@ -1,3 +1,5 @@
+Backport of v1.7.1 for next stack: Ruby 2.2.6 + Rails 3.2.22.5 + ActiveAdmin 1.0.0.pre5
+
 # ActiveAdmin Addons
 [![Gem Version](https://badge.fury.io/rb/activeadmin_addons.svg)](https://badge.fury.io/rb/activeadmin_addons)
 [![Build Status](https://secure.travis-ci.org/platanus/activeadmin_addons.svg?branch=master)](http://travis-ci.org/platanus/activeadmin_addons)
